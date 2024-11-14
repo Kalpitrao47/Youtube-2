@@ -26,7 +26,7 @@ console.log("🚀 ~ MainContainer ~ category:", category)
         <div><ButtonsList buttonsRef={buttonsRef}/></div>
         <div className='rounded-full h-7  w-7 bg-black text-white'  onClick={handleScrollRight}><KeyboardArrowRightIcon /></div>
       </div>
-      <div className='min-h-[54rem] overflow-auto'>
+      <div className='min-h-screen '>
         <VideosContainer />
       </div>
     </div>

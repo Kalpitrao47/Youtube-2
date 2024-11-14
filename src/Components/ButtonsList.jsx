@@ -7,7 +7,7 @@ const ButtonsList = ({buttonsRef}) => {
 
   return (
     <>
-      <div ref={buttonsRef} className='flex gap-10 p-5 w-[103rem] overflow-hidden'>
+      <div ref={buttonsRef} className='flex gap-10 p-5 w-full max-w-[88vw] overflow-hidden'>
         {buttonslist.map((b) => {
           return (
             <Buttons name={b} />
@@ -15,7 +15,7 @@ const ButtonsList = ({buttonsRef}) => {
         })}
       </div>
     </>
-  )
+  ) 
 }
 
 export default ButtonsList

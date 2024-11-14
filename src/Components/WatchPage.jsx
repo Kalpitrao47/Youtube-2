@@ -128,8 +128,7 @@ console.log("🚀 ~ WatchPage ~ isMenuClosed:", isMenuClosed)
               <BookmarkBorderIcon />
               Save
             </div>
-          </div>
-
+          </div>     
         </div>
 
         <div className='bg-gray-100 rounded-2xl p-5 mt-5 text-start'>
@@ -153,8 +152,7 @@ console.log("🚀 ~ WatchPage ~ isMenuClosed:", isMenuClosed)
                 <Comments comments={comments} />
               )
             })}
-
-          </div>
+          </div>   
         </div>
 
       </div>
