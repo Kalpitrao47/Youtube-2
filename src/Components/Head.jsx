@@ -28,10 +28,10 @@ const Head = () => {
       <div className='flex gap-5 '> 
         <MenuIcon fontSize='medium' className='mt-5 cursor-pointer' 
         // onClick={toggleMenuHandler} 
-        onClick={()=>toggleMenuHandler() }
+        onClick={()=>toggleMenuHandler()}
         />
         <img className='w-28 cursor-pointer' src='https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6.jpg' alt='Youtube_Logo' />
-      </div>
+      </div> 
 
       <div className='w-1/2'>
       <div className="mt-4  border border-gray-400 rounded-3xl flex justify-between">
@@ -40,7 +40,7 @@ const Head = () => {
       </div>
 
      
-      </div>
+      </div>  
       
 
       <div className='flex gap-5 mt-2'>

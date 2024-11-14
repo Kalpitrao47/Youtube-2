@@ -59,11 +59,7 @@ const SideBar = () => {
         "SchoolIcon": <SchoolIcon fontSize="medium" />,
         "CheckroomIcon": <CheckroomIcon fontSize="medium" />,
         "PodcastsIcon": <PodcastsIcon fontSize="medium" />
-      };
-
-    
-
-    
+      };   
       
     return (   
         <div className='h-[54rem]  scrollbar w-min-52 flex flex-col gap-y-4 divide-y'>

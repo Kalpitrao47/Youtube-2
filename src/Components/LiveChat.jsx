@@ -20,7 +20,7 @@ const LiveChat = () => {
       //Api POLLING
       //real data fetch in useEffect and dispatch an action
       console.log("ApI POlling");
-      dispatch(
+      dispatch(   
         addMessage({
           name: generateRandomName(),
           message: makeRandomMessage(20),
