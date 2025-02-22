@@ -21,11 +21,11 @@ console.log("🚀 ~ MainContainer ~ category:", category)
 
   return (
     <div>
-      <div className='flex items-center'>
+      {/* <div className='flex items-center'>
         <div className='rounded-full h-7 w-7 ml-2 bg-black text-white' onClick={handleScrollLeft}><KeyboardArrowLeftIcon /></div>
         <div><ButtonsList buttonsRef={buttonsRef}/></div>
         <div className='rounded-full h-7  w-7 bg-black text-white'  onClick={handleScrollRight}><KeyboardArrowRightIcon /></div>
-      </div>
+      </div> */}
       <div className='min-h-screen '>
         <VideosContainer />
       </div>
